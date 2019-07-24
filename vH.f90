@@ -13,7 +13,7 @@ num=s-skip
 
 allocate(dr(num))
 allocate(hist(n_bins))
-open(unit=10, file="srimayee_msd.txt", status="old")
+open(unit=10, file="com.txt", status="old")
 open(unit=11, file="output.xvg", status="new")
 read(10, *) com
 
